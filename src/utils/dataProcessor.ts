@@ -468,13 +468,6 @@ export const processData = (
                       const b = new Date(dateB);
                       return a.getTime() >= b.getTime();
                     }
-
-                    function isDateOnOrAfter(dateA: string, dateB: string): boolean {
-                      if (!dateA || !dateB) return false;
-                      const a = new Date(dateA);
-                      const b = new Date(dateB);
-                      return a.getTime() >= b.getTime();
-                    }
                     
                     // UPDATED CONVERSION CONDITIONS:
                     // 1. Sale date >= First visit date
